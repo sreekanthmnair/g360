@@ -10,7 +10,7 @@ public_subnets  = ["10.0.101.0/24", "10.0.102.0/24"]
 # EC2 / Launch Template
 
 ami_id        = "ami-0e4992f40d2f2eafb"
-instance_type = "t3.micro"
+instance_type = "t2.micro"
 key_name      = "webtier"
 
 # Auto Scaling Group
